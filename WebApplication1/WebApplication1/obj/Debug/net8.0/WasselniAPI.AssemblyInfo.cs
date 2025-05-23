@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WasselniAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c0854380a7d6049ec66d3b225cb413c62ba9b5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5d0e832fce7355ccd751d4516e4d1672f017d95")]
 [assembly: System.Reflection.AssemblyProductAttribute("WasselniAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WasselniAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
