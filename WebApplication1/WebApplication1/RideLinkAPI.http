@@ -1,0 +1,6 @@
+@RideLinkAPI_HostAddress = http://localhost:5067
+
+GET {{RideLinkAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
