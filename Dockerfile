@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Copy solution and project files
 COPY WebApplication1/WebApplication1.sln .
-COPY WebApplication1/WebApplication1/WasselniAPI.csproj ./WebApplication1/WebApplication1/
+COPY WebApplication1/WebApplication1/WasselniAPI.csproj ./WebApplication1/
 
 # Restore dependencies from the solution directory
 RUN dotnet restore WebApplication1.sln
