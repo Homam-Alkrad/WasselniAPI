@@ -1,21 +1,24 @@
-# Build stage
+# Use the official .NET SDK image for building the app
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
 
-# Copy everything and restore
-COPY . . 
+# Copy csproj and restore as distinct layers
+COPY *.sln .
+COPY WebApplication1/*.csproj ./WebApplication1/
 RUN dotnet restore
 
-# Publish the project
-RUN dotnet publish WasselniAPI.csproj -c Release -o /app/out
+# Copy the entire source and build
+COPY . .
+WORKDIR /app/WebApplication1
+RUN dotnet publish -c Release -o out
 
-# Runtime stage
+# Use the ASP.NET runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
-COPY --from=build /app/out .
+COPY --from=build /app/WebApplication1/out .
 
-# Expose port
+# Expose the port your app runs on
 EXPOSE 80
 
-# Run the application
-ENTRYPOINT ["dotnet", "WasselniAPI.dll"]
+# Set the entrypoint
+ENTRYPOINT ["dotnet", "WebApplication1.dll"]
