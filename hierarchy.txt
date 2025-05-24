@@ -1,0 +1,319 @@
+Folder PATH listing
+Volume serial number is C632-9809
+C:.
+³   .dockerignore
+³   .gitignore
+³   Dockerfile
+³   hierarchy.txt
+³   README.md
+³   
+ÃÄÄÄ.github
+³   ÀÄÄÄworkflows
+ÀÄÄÄWebApplication1
+    ³   .dockerignore
+    ³   .gitignore
+    ³   Dockerfile
+    ³   gitignore.txt
+    ³   WebApplication1.sln
+    ³   
+    ÃÄÄÄ.vs
+    ³   ÃÄÄÄProjectEvaluation
+    ³   ³       webapplication1.metadata.v7.bin
+    ³   ³       webapplication1.projects.v7.bin
+    ³   ³       
+    ³   ÀÄÄÄWebApplication1
+    ³       ÃÄÄÄconfig
+    ³       ³       applicationhost.config
+    ³       ³       
+    ³       ÃÄÄÄDesignTimeBuild
+    ³       ³       .dtbcache.v2
+    ³       ³       
+    ³       ÃÄÄÄFileContentIndex
+    ³       ³       3c41e307-319f-40cf-a4cb-8257e2d95e73.vsidx
+    ³       ³       6e65c372-1964-4694-bbf0-bf5eca2e2184.vsidx
+    ³       ³       9b62e3b5-d141-46cb-9782-5a96f0d5cb25.vsidx
+    ³       ³       a4bc39e8-ef34-42e1-83b6-5eb4fdf8f815.vsidx
+    ³       ³       da9811b9-3e9e-442f-9d23-b5ea8093de01.vsidx
+    ³       ³       
+    ³       ÀÄÄÄv17
+    ³               .futdcache.v2
+    ³               .suo
+    ³               DocumentLayout.json
+    ³               
+    ÀÄÄÄWebApplication1
+        ³   appsettings.Development.json
+        ³   appsettings.json
+        ³   DesignTimeDbContextFactory.cs
+        ³   Dockerfile
+        ³   Program.cs
+        ³   RideLinkAPI.http
+        ³   WasselniAPI.csproj
+        ³   WasselniAPI.csproj.user
+        ³   WeatherForecast.cs
+        ³   WebApplication1.http
+        ³   
+        ÃÄÄÄbin
+        ³   ÀÄÄÄDebug
+        ³       ÀÄÄÄnet8.0
+        ³           ³   appsettings.Development.json
+        ³           ³   appsettings.json
+        ³           ³   Azure.Core.dll
+        ³           ³   Azure.Identity.dll
+        ³           ³   Humanizer.dll
+        ³           ³   Microsoft.AspNetCore.Authentication.JwtBearer.dll
+        ³           ³   Microsoft.Bcl.AsyncInterfaces.dll
+        ³           ³   Microsoft.CodeAnalysis.CSharp.dll
+        ³           ³   Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+        ³           ³   Microsoft.CodeAnalysis.dll
+        ³           ³   Microsoft.CodeAnalysis.Workspaces.dll
+        ³           ³   Microsoft.Data.SqlClient.dll
+        ³           ³   Microsoft.EntityFrameworkCore.Abstractions.dll
+        ³           ³   Microsoft.EntityFrameworkCore.Design.dll
+        ³           ³   Microsoft.EntityFrameworkCore.dll
+        ³           ³   Microsoft.EntityFrameworkCore.Relational.dll
+        ³           ³   Microsoft.EntityFrameworkCore.SqlServer.dll
+        ³           ³   Microsoft.Extensions.Caching.Memory.dll
+        ³           ³   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+        ³           ³   Microsoft.Extensions.DependencyInjection.dll
+        ³           ³   Microsoft.Extensions.DependencyModel.dll
+        ³           ³   Microsoft.Extensions.Logging.Abstractions.dll
+        ³           ³   Microsoft.Extensions.Logging.dll
+        ³           ³   Microsoft.Extensions.Options.dll
+        ³           ³   Microsoft.Identity.Client.dll
+        ³           ³   Microsoft.Identity.Client.Extensions.Msal.dll
+        ³           ³   Microsoft.IdentityModel.Abstractions.dll
+        ³           ³   Microsoft.IdentityModel.JsonWebTokens.dll
+        ³           ³   Microsoft.IdentityModel.Logging.dll
+        ³           ³   Microsoft.IdentityModel.Protocols.dll
+        ³           ³   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+        ³           ³   Microsoft.IdentityModel.Tokens.dll
+        ³           ³   Microsoft.OpenApi.dll
+        ³           ³   Microsoft.SqlServer.Server.dll
+        ³           ³   Microsoft.Win32.SystemEvents.dll
+        ³           ³   Mono.TextTemplating.dll
+        ³           ³   Swashbuckle.AspNetCore.Swagger.dll
+        ³           ³   Swashbuckle.AspNetCore.SwaggerGen.dll
+        ³           ³   Swashbuckle.AspNetCore.SwaggerUI.dll
+        ³           ³   System.ClientModel.dll
+        ³           ³   System.CodeDom.dll
+        ³           ³   System.Composition.AttributedModel.dll
+        ³           ³   System.Composition.Convention.dll
+        ³           ³   System.Composition.Hosting.dll
+        ³           ³   System.Composition.Runtime.dll
+        ³           ³   System.Composition.TypedParts.dll
+        ³           ³   System.Configuration.ConfigurationManager.dll
+        ³           ³   System.Drawing.Common.dll
+        ³           ³   System.IdentityModel.Tokens.Jwt.dll
+        ³           ³   System.Memory.Data.dll
+        ³           ³   System.Runtime.Caching.dll
+        ³           ³   System.Security.Cryptography.ProtectedData.dll
+        ³           ³   System.Security.Permissions.dll
+        ³           ³   System.Windows.Extensions.dll
+        ³           ³   WasselniAPI.deps.json
+        ³           ³   WasselniAPI.dll
+        ³           ³   WasselniAPI.exe
+        ³           ³   WasselniAPI.pdb
+        ³           ³   WasselniAPI.runtimeconfig.json
+        ³           ³   WebApplication1.deps.json
+        ³           ³   WebApplication1.dll
+        ³           ³   WebApplication1.exe
+        ³           ³   WebApplication1.pdb
+        ³           ³   WebApplication1.runtimeconfig.json
+        ³           ³   
+        ³           ÃÄÄÄcs
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÃÄÄÄde
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÃÄÄÄes
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÃÄÄÄfr
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÃÄÄÄit
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÃÄÄÄja
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÃÄÄÄko
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÃÄÄÄpl
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÃÄÄÄpt-BR
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÃÄÄÄru
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÃÄÄÄruntimes
+        ³           ³   ÃÄÄÄunix
+        ³           ³   ³   ÀÄÄÄlib
+        ³           ³   ³       ÀÄÄÄnet6.0
+        ³           ³   ³               Microsoft.Data.SqlClient.dll
+        ³           ³   ³               System.Drawing.Common.dll
+        ³           ³   ³               
+        ³           ³   ÃÄÄÄwin
+        ³           ³   ³   ÀÄÄÄlib
+        ³           ³   ³       ÀÄÄÄnet6.0
+        ³           ³   ³               Microsoft.Data.SqlClient.dll
+        ³           ³   ³               Microsoft.Win32.SystemEvents.dll
+        ³           ³   ³               System.Drawing.Common.dll
+        ³           ³   ³               System.Runtime.Caching.dll
+        ³           ³   ³               System.Security.Cryptography.ProtectedData.dll
+        ³           ³   ³               System.Windows.Extensions.dll
+        ³           ³   ³               
+        ³           ³   ÃÄÄÄwin-arm
+        ³           ³   ³   ÀÄÄÄnative
+        ³           ³   ³           Microsoft.Data.SqlClient.SNI.dll
+        ³           ³   ³           
+        ³           ³   ÃÄÄÄwin-arm64
+        ³           ³   ³   ÀÄÄÄnative
+        ³           ³   ³           Microsoft.Data.SqlClient.SNI.dll
+        ³           ³   ³           
+        ³           ³   ÃÄÄÄwin-x64
+        ³           ³   ³   ÀÄÄÄnative
+        ³           ³   ³           Microsoft.Data.SqlClient.SNI.dll
+        ³           ³   ³           
+        ³           ³   ÀÄÄÄwin-x86
+        ³           ³       ÀÄÄÄnative
+        ³           ³               Microsoft.Data.SqlClient.SNI.dll
+        ³           ³               
+        ³           ÃÄÄÄtr
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÃÄÄÄzh-Hans
+        ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.resources.dll
+        ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³           ³       
+        ³           ÀÄÄÄzh-Hant
+        ³                   Microsoft.CodeAnalysis.CSharp.resources.dll
+        ³                   Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+        ³                   Microsoft.CodeAnalysis.resources.dll
+        ³                   Microsoft.CodeAnalysis.Workspaces.resources.dll
+        ³                   
+        ÃÄÄÄControllers
+        ³       AuthController.cs
+        ³       WeatherForecastController.cs
+        ³       
+        ÃÄÄÄData
+        ³       ApplicationDbContext.cs
+        ³       
+        ÃÄÄÄMigrations
+        ³       20250523012832_migrations.cs
+        ³       20250523012832_migrations.Designer.cs
+        ³       ApplicationDbContextModelSnapshot.cs
+        ³       
+        ÃÄÄÄModels
+        ³       Wasselni.cs
+        ³       
+        ÃÄÄÄobj
+        ³   ³   project.assets.json
+        ³   ³   project.nuget.cache
+        ³   ³   WasselniAPI.csproj.nuget.dgspec.json
+        ³   ³   WasselniAPI.csproj.nuget.g.props
+        ³   ³   WasselniAPI.csproj.nuget.g.targets
+        ³   ³   WebApplication1.csproj.nuget.dgspec.json
+        ³   ³   WebApplication1.csproj.nuget.g.props
+        ³   ³   WebApplication1.csproj.nuget.g.targets
+        ³   ³   
+        ³   ÀÄÄÄDebug
+        ³       ÀÄÄÄnet8.0
+        ³           ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+        ³           ³   ApiEndpoints.json
+        ³           ³   apphost.exe
+        ³           ³   staticwebassets.build.json
+        ³           ³   WasselniAPI.AssemblyInfo.cs
+        ³           ³   WasselniAPI.AssemblyInfoInputs.cache
+        ³           ³   WasselniAPI.assets.cache
+        ³           ³   WasselniAPI.csproj.AssemblyReference.cache
+        ³           ³   WasselniAPI.csproj.BuildWithSkipAnalyzers
+        ³           ³   WasselniAPI.csproj.CoreCompileInputs.cache
+        ³           ³   WasselniAPI.csproj.FileListAbsolute.txt
+        ³           ³   WasselniAPI.dll
+        ³           ³   WasselniAPI.GeneratedMSBuildEditorConfig.editorconfig
+        ³           ³   WasselniAPI.genruntimeconfig.cache
+        ³           ³   WasselniAPI.GlobalUsings.g.cs
+        ³           ³   WasselniAPI.MvcApplicationPartsAssemblyInfo.cache
+        ³           ³   WasselniAPI.MvcApplicationPartsAssemblyInfo.cs
+        ³           ³   WasselniAPI.pdb
+        ³           ³   WasselniAPI.sourcelink.json
+        ³           ³   WebAppli.7D14BD69.Up2Date
+        ³           ³   WebApplication1.AssemblyInfo.cs
+        ³           ³   WebApplication1.AssemblyInfoInputs.cache
+        ³           ³   WebApplication1.assets.cache
+        ³           ³   WebApplication1.csproj.AssemblyReference.cache
+        ³           ³   WebApplication1.csproj.BuildWithSkipAnalyzers
+        ³           ³   WebApplication1.csproj.CoreCompileInputs.cache
+        ³           ³   WebApplication1.csproj.FileListAbsolute.txt
+        ³           ³   WebApplication1.dll
+        ³           ³   WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+        ³           ³   WebApplication1.genruntimeconfig.cache
+        ³           ³   WebApplication1.GlobalUsings.g.cs
+        ³           ³   WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+        ³           ³   WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+        ³           ³   WebApplication1.pdb
+        ³           ³   WebApplication1.sourcelink.json
+        ³           ³   
+        ³           ÃÄÄÄref
+        ³           ³       WasselniAPI.dll
+        ³           ³       WebApplication1.dll
+        ³           ³       
+        ³           ÃÄÄÄrefint
+        ³           ³       WasselniAPI.dll
+        ³           ³       WebApplication1.dll
+        ³           ³       
+        ³           ÀÄÄÄstaticwebassets
+        ³                   msbuild.build.WasselniAPI.props
+        ³                   msbuild.build.WebApplication1.props
+        ³                   msbuild.buildMultiTargeting.WasselniAPI.props
+        ³                   msbuild.buildMultiTargeting.WebApplication1.props
+        ³                   msbuild.buildTransitive.WasselniAPI.props
+        ³                   msbuild.buildTransitive.WebApplication1.props
+        ³                   
+        ÃÄÄÄProperties
+        ³       launchSettings.json
+        ³       
+        ÀÄÄÄServices
+                IService.cs
+                WebSocket.cs
+                

@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Text;
 using WasselniAPI.DTOs;
 using WasselniAPI.Models;
 using WasselniAPI.Services.Interfaces;
@@ -54,10 +57,37 @@ namespace WasselniAPI.Controllers
                 return Unauthorized("Invalid credentials");
 
             var user = await _userService.GetUserByEmailAsync(dto.Email);
+            if (user == null)
+                return Unauthorized("User not found");
+
             await _userService.SetLoginStatusAsync(user.Id, true);
 
             var token = GenerateJwtToken(user);
             return Ok(new { Token = token, User = user });
+        }
+
+        private string GenerateJwtToken(User user)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]);
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new[]
+                {
+            new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+            new Claim(ClaimTypes.Email, user.Email),
+            new Claim(ClaimTypes.Name, user.FullName),
+            new Claim("UserType", user.UserType.ToString())
+        }),
+                Expires = DateTime.UtcNow.AddDays(7),
+                Issuer = _configuration["Jwt:Issuer"],
+                Audience = _configuration["Jwt:Audience"],
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
         }
 
         [HttpPost("logout")]
@@ -67,11 +97,6 @@ namespace WasselniAPI.Controllers
             var userId = GetCurrentUserId();
             await _userService.SetLoginStatusAsync(userId, false);
             return Ok(new { Message = "Logged out successfully" });
-        }
-
-        private string GenerateJwtToken(User user)
-        {
-            return $"jwt_token_for_user_{user.Id}";
         }
 
         private int GetCurrentUserId()

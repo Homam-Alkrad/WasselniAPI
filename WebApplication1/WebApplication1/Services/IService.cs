@@ -277,15 +277,23 @@ namespace WasselniAPI.Services.Implementations
 
         public async Task<bool> SetLoginStatusAsync(int userId, bool isLoggedIn)
         {
-            var user = await GetUserByIdAsync(userId);
-            if (user == null) return false;
+            try
+            {
+                var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == userId);
+                if (user == null) return false;
 
-            user.IsLoggedIn = isLoggedIn;
-            if (isLoggedIn) user.LastLoginAt = DateTime.UtcNow;
-            await UpdateUserAsync(user);
-            return true;
+                user.IsLoggedIn = isLoggedIn;
+                if (isLoggedIn) user.LastLoginAt = DateTime.UtcNow;
+
+                _context.Entry(user).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
-
         public async Task<double?> GetDriverRatingAsync(int driverId)
         {
             var ratings = await _context.Ratings
